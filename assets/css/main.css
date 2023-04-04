@@ -179,7 +179,7 @@ input, select, textarea {
 
 	p {
 		margin: 0;
-		padding: 0 3em 0 3em;
+		padding: 0 2em 0 2em;
 	}
 
 		p.content {
@@ -3701,7 +3701,7 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		padding: 5em 5em 3em 5em ;
+		padding: 2em 5em 3em 5em ;
 		width: calc(100% + 2em);
 		margin: 0 0 3em -2em;
 	}
