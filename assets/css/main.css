@@ -179,6 +179,7 @@ input, select, textarea {
 
 	p {
 		margin: 0;
+		padding: 0 3em 0 3em;
 	}
 
 		p.content {
@@ -215,7 +216,7 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 1.25em;
+		font-size: 1.3em;
 	}
 
 	h4 {
@@ -2809,10 +2810,11 @@ input, select, textarea {
 		margin: 0 0 3em -2em;
 		padding: 0;
 		list-style: none;
+		/* align-self: center; */
 	}
 
 		.features li {
-			width: calc(33.33333% - 2em);
+			width: calc(50% - 2em);
 			margin-left: 2em;
 			margin-top: 3em;
 			padding: 0;
