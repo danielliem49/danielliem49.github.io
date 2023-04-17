@@ -2973,11 +2973,11 @@ table.alt tbody tr td {
 	padding: 0;
 }
 
-.features li:nth-child(1),
+/* .features li:nth-child(1),
 .features li:nth-child(2),
 .features li:nth-child(3) {
 	margin-top: 0;
-}
+} */
 
 .features li> :last-child {
 	margin-bottom: 0;
@@ -3022,11 +3022,14 @@ table.alt tbody tr td {
 	display: -moz-flex;
 	display: -webkit-flex;
 	display: -ms-flex;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	/* display: block;
 	width: 100%;
-	margin: 0 0 3em 0;
+	margin: 0 0 3em 0; */
+
+		display: block;
+			width: 40em;
+			max-width: 100%;
+			margin: 0 auto 2em auto;
 	padding: 0;
 	list-style: none;
 	cursor: default;
